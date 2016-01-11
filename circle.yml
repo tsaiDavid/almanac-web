@@ -12,6 +12,8 @@ dependencies:
 test:
   pre:
     - npm run lint
+  override:
+    - echo test
 
 notify:
   webhooks:
